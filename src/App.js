@@ -7,7 +7,7 @@ import { Route} from 'react-router'
 import './App.css';
 
 function App() {
-  const URL = 'http://localhost:4000/'; //Change to heroku on netlify depolyment
+  const URL = 'https://enigmatic-woodland-47053.herokuapp.com/';
   return (
     <div className="App">
       <Header />
