@@ -9,13 +9,13 @@ const Projects = (props) => {
     setProjects(data);
   }
 
-  useEffect(() => { getProjectData() }, []);
+  useEffect(() => { getProjectData() });
 
   const loaded = () => {
     return projects?.map((project) => (
       <div>
         <h1>{project.name}</h1>
-        <img src={project.image} />
+        <img src={project.image} alt="project screenshot"/>
         <a href={project.git}>
           <button>Github</button>
         </a>
