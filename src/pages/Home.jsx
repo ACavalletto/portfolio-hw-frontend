@@ -3,7 +3,7 @@ const Home = () => {
     viewheight: "85%",
   }
   return (
-    <div>Home</div>
+    <div style={homeStyle}>Home</div>
   )
 }
 
